@@ -60,13 +60,6 @@ public class Student extends Person {
 	public void setAverageGrade(double averageGrade) {
 		this.averageGrade = averageGrade;
 	}
-
-	public double calculateAverage(double firstGrade){
-		double sum = firstGrade +secondGrade +thirdGrade;
-		double average = sum /3;
-		this.setAverageGrade(average);
-		return average;
-	}
 	
 	public double calculateAverage(){
 		double sum = this.firstGrade +this.secondGrade +this.thirdGrade;
