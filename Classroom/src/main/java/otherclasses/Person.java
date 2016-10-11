@@ -2,7 +2,7 @@ package otherclasses;
 
 public class Person {
 	//Attributes
-	private int age = 100;
+	private int age = 0;
 	private String firstName ="";
 	private String lastName="";
 	private char gender='X';
