@@ -58,6 +58,7 @@ public class TestClassroom {
 		cla.setStudents(students2);
 		assertEquals(cla.getStudents(), students2);
 		cla.addANewStudent(new Student("Christian", "Ström", 24, 'M'));
+		cla.printFullRelatory();
 		cla.removeAStudent("Nils");
 		cla.removeAStudent("Christian");
 		cla.printFullRelatory();
